@@ -1,0 +1,248 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+}
+
+.container {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: rgb(117, 117, 250);
+    padding: 2rem;
+    margin-bottom: 5rem;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    gap: 2rem;
+}
+
+.logo-bloco {
+    flex: 1;
+}
+
+.contato {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+nav {
+    flex: 1;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    gap: 1rem;
+}
+
+header h1 {
+    margin-left: 2rem;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+.contato {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.email {
+    display: flex;
+}
+
+.email h4 {
+    font-size: 1.5rem;
+}
+
+.email p {
+    font-size: 1.5rem;
+}
+
+.iconeEmail {
+    margin-left: 1rem;
+}
+
+.telefone {
+    display: flex;
+}
+
+.telefone h4 {
+    font-size: 1.5rem;
+}
+
+.telefone p {
+    font-size: 1.5rem;
+}
+
+.iconetelefone {
+    margin-left: 1rem;
+}
+.telefone{
+    margin-left: 2rem;
+}
+
+.logoimagem {
+    display: flex;
+    align-items: center;
+    margin-left: 2rem;
+}
+
+.logo {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+li {
+    margin-left: 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+}
+
+a:hover {
+    color:azure;
+    font-weight: bolder;
+}
+
+body {
+    background-color: rgba(248, 145, 231, 0.8);
+}
+
+.menu {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.menu h2 {
+    font-size: 1rem;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.conteudo {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5rem;
+}
+
+.conteudo h2 {
+    margin-bottom: 5rem;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+    border-bottom: 4px solid rgb(21, 36, 250);
+    color: rgb(21, 36, 250);
+    font-size: 3rem;
+}
+
+.conteudo p{
+    font-size: 1.5rem;
+}
+
+.conteudo img{
+    max-width: 100%;
+    margin-right: 2rem;
+}
+
+.produtos ul {
+    display:grid;
+    grid-template-columns: repeat(4,24.5%);
+    list-style: none;
+}
+
+.produtos h2 {
+    font-size: 3rem;
+    color: rgb(21, 36, 250);
+    border-bottom: 4px solid rgb(21, 36, 250);
+    padding: 1rem;
+}
+
+.produtos ul li{
+    margin-left: 1rem;
+}
+
+.produtos img {
+    max-width: 100%;
+}
+
+.produtos h3 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.produtos p {
+    margin-top: .5rem;
+}
+
+.produtos button {
+    padding: .5rem 3rem;
+    border: none;
+    border-radius: .5rem;
+    background-color: aqua;
+    margin-top: 1rem;
+}
+
+.produto {
+    margin-top: 3rem;
+}
+
+.produtos button:hover {
+    background-color: blue;
+    cursor: pointer;
+}
+
+.loja {
+    margin-top: 5rem;
+}
+
+.precos {
+    padding-top: 1rem;
+}
+
+.localizacao h2 {
+    font-size: 3rem;
+    color: rgb(21, 36, 250);
+    border-bottom: 4px solid rgb(21, 36, 250);
+    padding: 1rem;
+}
+
+.mapa {
+    margin-top: 2rem;
+}
+
+footer {
+    background-color: rgba(21, 36, 250,0.8);
+    color: black;
+    padding: 1.5rem 0;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+
+
